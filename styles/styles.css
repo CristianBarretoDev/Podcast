@@ -8,4 +8,9 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.logo-spotify {
+  width: 10px;
+  height: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
