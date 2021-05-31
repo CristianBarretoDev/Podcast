@@ -38,3 +38,42 @@ body {
         margin-top: 8 px;
     }
 }
+
+.form-contenedor {
+    .form-contenedor-1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        font-family: $fontSpotifyText;
+    }
+    .form-username {
+        width: 200px;
+        height: 35px;
+        border-radius: 100px;
+        background-color: #121315;
+        border-style: inset;
+        border-color: white;
+    }
+    .form-username::placeholder {
+        text-align: center;
+        color: white;
+    }
+    .form-password {
+        width: 200px;
+        height: 35px;
+        border-radius: 100px;
+        background-color: #121315;
+        border-style: inset;
+        border-color: white;
+    }
+
+    .form-password::placeholder {
+        text-align: center;
+        color: white;
+    }
+    .form-forgot {
+        color: white;
+        font-size: 13px;
+        text-align: right;
+    }
+}

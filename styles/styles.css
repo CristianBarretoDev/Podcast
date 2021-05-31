@@ -41,6 +41,82 @@ body {
   font-family: Montserrat;
   font-weight: 900;
   color: white;
-  margin-top: 8px;
+  margin-top: 8 px;
+}
+
+.form-contenedor .form-contenedor-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  font-family: Roboto;
+}
+
+.form-contenedor .form-username {
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #121315;
+  border-style: inset;
+  border-color: white;
+}
+
+.form-contenedor .form-username::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username::-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-username::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password {
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #121315;
+  border-style: inset;
+  border-color: white;
+}
+
+.form-contenedor .form-password::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password::-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-password::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.form-contenedor .form-forgot {
+  color: white;
+  font-size: 13px;
+  text-align: right;
 }
 /*# sourceMappingURL=styles.css.map */
